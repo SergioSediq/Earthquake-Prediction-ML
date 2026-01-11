@@ -1,0 +1,31 @@
+============================================================
+EARTHQUAKE PREDICTION - ADVANCED MODEL METRICS
+============================================================
+
+OVERALL PERFORMANCE:
+------------------------------------------------------------
+Training MSE: 1526.9922
+Training MAE: 14.8402
+Test MSE: 1805.7604
+Test MAE: 15.8633
+
+DETAILED METRICS BY TARGET:
+------------------------------------------------------------
+
+Magnitude:
+  Mean Absolute Error (MAE): 0.3130
+  Median Absolute Error: 0.2678
+  90th Percentile Error: 0.5812
+  Root Mean Squared Error (RMSE): 0.4281
+  R² Score: 0.0144
+  Mean Percentage Error: 5.32%
+
+Depth:
+  Mean Absolute Error (MAE): 31.4137
+  Median Absolute Error: 15.6843
+  90th Percentile Error: 75.6886
+  Root Mean Squared Error (RMSE): 60.0943
+  R² Score: 0.7614
+  Mean Percentage Error: 44.05%
+
+============================================================
