@@ -12,7 +12,7 @@ Deep learning project predicting earthquake characteristics using historical sei
 
 ## 📊 Dataset
 
-**Source:** USGS Earthquake Database (Kaggle)  
+**Source:** USGS Earthquake Database  
 **Size:** 23,409 earthquake records  
 **Features:** 23 engineered attributes (from original 6)  
 **Targets:** Magnitude (Richter scale), Depth (km)  
@@ -152,14 +152,20 @@ pip install -r requirements.txt
 
 ### Dataset Setup
 
-```bash
-# Download dataset from Kaggle
-# https://www.kaggle.com/datasets/usgs/earthquake-database
+**Download the dataset:**
 
-# Place database.csv in data/ folder
+1. Download `database.csv` from [this GitHub repository](https://github.com/amankharwal/Website-data/blob/master/database.csv)
+2. Click **"Raw"** button to download the file
+3. Save it in the `data/` folder as `database.csv`
+
+```bash
+# Create data folder
 mkdir data
+
 # Move downloaded database.csv to data/database.csv
 ```
+
+> **Note:** The dataset (~23MB) is not included in this repository. You must download it before running the pipeline.
 
 ### Training the Model
 
@@ -363,7 +369,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgements
 
-- **Dataset:** USGS Earthquake Database via Kaggle
+- **Dataset:** USGS Earthquake Database via [Aman Kharwal's Repository](https://github.com/amankharwal/Website-data)
 - **Libraries:** TensorFlow, scikit-learn, cartopy communities
 - **Inspiration:** Real-world seismic prediction challenges
 - **Tools:** VS Code, GitHub, Python ecosystem
